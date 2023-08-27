@@ -13,7 +13,7 @@ const Footer: React.FC<FooterProps> = props => {
             <a href="https://www.linkedin.com/in/thomasmwilliam/" target="_blank" rel="noreferrer" title="LinkedIn">
                 <FontAwesomeIcon icon={faLinkedin} className="footer-icon"/>
             </a>
-            <a href="https://github.com/willmt80" target="_blank" rel="noreferrer" title="GitHub">
+            <a href="https://github.com/willmullinthomas" target="_blank" rel="noreferrer" title="GitHub">
                 <FontAwesomeIcon icon={faGithub} className="footer-icon"/>
             </a>
         </div>
