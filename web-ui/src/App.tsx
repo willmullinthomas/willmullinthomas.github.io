@@ -1,22 +1,14 @@
-import React from 'react';
-import './App.css';
-import NavBar from './nav/NavBar';
-import { Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Resume from './pages/Resume';
-import Portfolio from './pages/Portfolio';
-import { AppRoute } from './utils/AppRoute';
-
+import "./App.css";
+import Footer from "./components/Footer";
+import NavBar from "./components/NavBar";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <div className="page-container">
       <NavBar />
-      <Routes>
-        <Route path={`/${AppRoute.Home}`} element={<Home />} />
-        <Route path={`/${AppRoute.Resume}`} element={<Resume />} />
-        <Route path={`/${AppRoute.Portfolio}`} element={<Portfolio />} />
-      </Routes>
+      <Outlet />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,26 @@
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link-active {
+    color: white;
+    background-color: #334b61;
+}
+
+.nav-link-inactive {
+    color: #334b61;
+}
+
+.nav-link-inactive:hover {
+    color: #1b344d;
+    background-color: #d3dce4;
+}
+
+.nav-link-content {
+    padding: 1em 0.5em;
+    font-size: 20px;
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    font-weight: bold;
+}

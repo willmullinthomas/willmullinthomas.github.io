@@ -1,0 +1,12 @@
+.footer-container {
+    display: flex; 
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #DDDDDD;
+}
+
+.footer-icon {
+    font-size: 24px;
+    color: black;
+}

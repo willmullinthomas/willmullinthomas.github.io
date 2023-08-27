@@ -1,5 +1,5 @@
 export enum AppRoute {
     Home = "",
-    Resume = "resume",
+    Experience = "experience",
     Portfolio = "portfolio"
 }
