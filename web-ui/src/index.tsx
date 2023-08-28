@@ -8,6 +8,7 @@ import Experience from "./pages/Experience";
 import Portfolio from "./pages/Portfolio";
 import { AppRoute } from "./utils/AppRoute";
 import NotFound from "./pages/NotFound";
+import About from "./pages/About";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: AppRoute.Portfolio,
         element: <Portfolio />,
+      },
+      {
+        path: AppRoute.About,
+        element: <About />,
       },
       {
         path: "*",

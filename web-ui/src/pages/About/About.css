@@ -1,0 +1,24 @@
+.about-portrait {
+    max-width: 350px;
+    max-height: 525px;
+    width: 100%;
+}
+
+.about-body {
+    display: flex;
+    padding: 1em;
+    column-gap: 3em;
+}
+
+.about-text {
+    max-width: 50%;
+}
+
+@media screen and (max-width:775px) {
+    .about-body {
+        flex-wrap: wrap;
+    }
+    .about-text {
+        max-width: 100%;
+    }
+}

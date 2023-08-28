@@ -1,0 +1,20 @@
+.home-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 5em;
+    padding: 1em;
+}
+
+.home-portrait {
+    max-width: 425px;
+    width: 100%;
+}
+
+.home-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
