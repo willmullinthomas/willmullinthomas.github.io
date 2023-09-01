@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faFileLines } from "@fortawesome/free-solid-svg-icons";
 import "./Footer.css";
 
 type FooterProps = {
@@ -15,6 +16,9 @@ const Footer: React.FC<FooterProps> = props => {
             </a>
             <a href="https://github.com/willmullinthomas" target="_blank" rel="noreferrer" title="GitHub">
                 <FontAwesomeIcon icon={faGithub} className="footer-icon"/>
+            </a>
+            <a href="../../content/Will_Thomas_Resume.pdf" download title="Resume">
+                <FontAwesomeIcon icon={faFileLines} className="footer-icon"/>
             </a>
         </div>
     );

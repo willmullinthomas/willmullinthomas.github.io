@@ -3,25 +3,32 @@ import Tag from "../Tag";
 import "./Card.css";
 
 type CardProps = {
-    title: string;
+    title: string | JSX.Element;
+    tertiaryText?: string;
     tags: Array<string>;
-    imageSrc: string;
+    imageSrc?: string;
     imageSide?: 'right' | 'left';
     className?: string;
+    contentClassName?: string;
+    imageClassName?: string;
 } & React.PropsWithChildren;
 
 const Card: React.FC<CardProps> = props => {
 
-    const cardContainer = React.useMemo(() =>
+    const cardContainerClassName = React.useMemo(() =>
         `card-container ${props.className??""}`
     , [props.className]);
 
+    const cardContentClassName = React.useMemo(() =>
+        `card-content ${props.contentClassName??""}`
+    , [props.contentClassName]);
+
     return (
-        <div className={cardContainer}>
-            { props.imageSide === 'left' &&
-                <img src={props.imageSrc} alt="card-left" className="card-image" />
+        <div className={cardContainerClassName}>
+            { props.imageSrc && props.imageSide === 'left' &&
+                <img src={props.imageSrc} alt="card-left" className={props.imageClassName}/>
             }
-            <div className="card-content">
+            <div className={cardContentClassName}>
                 <div className="card-title">{props.title}</div>
                 { props.children }
                 <div className="card-tags">
@@ -32,8 +39,8 @@ const Card: React.FC<CardProps> = props => {
                     ) }
                 </div>
             </div>
-            { props.imageSide === 'right' &&
-                <img src={props.imageSrc} alt="card-left" className="card-image" />
+            { props.imageSrc && props.imageSide === 'right' &&
+                <img src={props.imageSrc} alt="card-left" className={props.imageClassName} />
             }
         </div>
     );

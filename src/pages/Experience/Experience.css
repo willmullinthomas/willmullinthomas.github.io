@@ -1,15 +1,35 @@
-.experience-container {
-    display: flex;
-    justify-content: center;
+.experience-body {
     padding: 1em;
-    width: 100%;
 }
 
 .experience-cards {
     min-width: 300px;
-    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
 }
 
 .experience-card {
-    height: 200px;
+    min-height: 220px;
+}
+
+.experience-card-content {
+    min-height: 220px;
+    padding: 0.5em 0;
+    max-width: 600px;
+}
+
+.experience-card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.experience-image {
+    width: 220px;
+    height: 220px;
+}
+
+.enel-image {
+    width: 220px;
 }

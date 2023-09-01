@@ -1,0 +1,15 @@
+.portfolio-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+.portfolio-card {
+    max-width: 800px;
+    padding: 0.5em 0;
+}
+
+.portfolio-card-content {
+    gap: 0.5em;
+}
