@@ -61,7 +61,7 @@ const Experience = () => {
                             <strong>Demand Response Program Operations Intern</strong> | Jan 2019 - June 2019
                         </div>
                         <div>
-                            I Designed R and Python scripts which managed complicated data objects and saved hundreds of man hours for my team. Additionally, I utilized the Salesforce Object Query Language to query and update customer data.
+                            I Designed scripts which managed complicated data objects and saved hundreds of man hours for my team. Additionally, I utilized the Salesforce Object Query Language to perform quality checks on customer data.
                         </div>
                     </div>
                 </Card>
