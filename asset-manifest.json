@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1bceea4d.css",
+    "main.css": "/static/css/main.745a6351.css",
     "main.js": "/static/js/main.f6c73c01.js",
     "static/media/portrait-about.png": "/static/media/portrait-about.3b45764826c1cb5b2cd2.png",
     "static/media/portrait-home.png": "/static/media/portrait-home.337e65841f510b0fd8a8.png",
@@ -8,11 +8,11 @@
     "static/media/c4c.png": "/static/media/c4c.a039dd0e10cf0d32bfb4.png",
     "static/media/enel-x.png": "/static/media/enel-x.c2a637bbacd4561db958.png",
     "index.html": "/index.html",
-    "main.1bceea4d.css.map": "/static/css/main.1bceea4d.css.map",
+    "main.745a6351.css.map": "/static/css/main.745a6351.css.map",
     "main.f6c73c01.js.map": "/static/js/main.f6c73c01.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bceea4d.css",
+    "static/css/main.745a6351.css",
     "static/js/main.f6c73c01.js"
   ]
 }
