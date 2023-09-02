@@ -34,7 +34,7 @@ const Portfolio = () => {
                 contentClassName="portfolio-card-content"
             >
                 <div>
-                    A portfolio website I created with the help of <a href="https://create-react-app.dev/" target="_blank" rel="noreferrer">Create React App</a> for the initial build configuration. All components and styling were created by me with the exception of the icons from <a href="https://fontawesome.com/" target="_blank" rel="noreferrer">Font Awesome</a>.The website is hosted right from the repo with <a href="https://pages.github.com/" target="_blank" rel="noreferrer">GitHub pages</a>.
+                    A portfolio website I created with the help of <a href="https://create-react-app.dev/" target="_blank" rel="noreferrer">Create React App</a> for the initial build configuration. All components and styling were created by me with the exception of the icons from <a href="https://fontawesome.com/" target="_blank" rel="noreferrer">Font Awesome</a>. The website is hosted right from the repo with <a href="https://pages.github.com/" target="_blank" rel="noreferrer">GitHub pages</a>.
                 </div>
             </Card>
         </div>
