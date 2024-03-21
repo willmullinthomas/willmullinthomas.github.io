@@ -18,7 +18,7 @@ const Experience = () => {
                 >
                     <div className="experience-card-text">
                         <div>
-                            <strong>Software Engineer I</strong> | Jan 2022 - Present
+                            <strong>Software Engineer</strong> | Jan 2022 - Present
                             <br />
                             <strong>Software Engineer Co-op</strong> | Jan 2020 - June 2020
                         </div>
