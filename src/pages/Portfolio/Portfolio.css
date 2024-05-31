@@ -3,13 +3,14 @@
     flex-direction: column;
     gap: 2em;
     padding: 1em;
+    align-items: center;
 }
 
 .portfolio-card {
-    max-width: 800px;
-    padding: 0.5em 0;
+    padding: 10px;
+    max-width: 850px;
 }
 
 .portfolio-card-content {
-    gap: 0.5em;
+    gap: 0.6em;
 }

@@ -1,12 +1,6 @@
 .footer-container {
     display: flex; 
-    gap: 1em;
+    gap: 2em;
     align-items: center;
     justify-content: center;
-    border-top: 1px solid #DDDDDD;
-}
-
-.footer-icon {
-    font-size: 24px;
-    color: #334b61;
 }

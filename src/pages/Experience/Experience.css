@@ -7,26 +7,26 @@
     display: flex;
     flex-direction: column;
     gap: 2em;
+    align-items: center;
 }
 
 .experience-card {
-    min-height: 220px;
+    padding: 10px;
+    max-width: 850px;
 }
 
 .experience-card-content {
-    min-height: 220px;
-    padding: 0.5em 0;
-    max-width: 600px;
-}
-
-.experience-card-text {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
+    gap: 0.6em;
 }
 
 .experience-image {
     width: 220px;
     height: 220px;
     border-radius: 50%;
+}
+
+@media screen and (max-width:775px) {
+    .experience-card {
+        flex-wrap: wrap;
+    }
 }

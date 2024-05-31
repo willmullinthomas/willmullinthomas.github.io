@@ -1,5 +1,23 @@
 .nav-bar {
     display: flex;
-    flex-wrap: wrap;
     border-bottom: 1px solid #DDDDDD;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-right {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0.5em;
+}
+
+.nav-right-icon {
+    font-size: 24px;
+    color: #334b61;
 }

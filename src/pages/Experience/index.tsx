@@ -16,15 +16,13 @@ const Experience = () => {
                     className="experience-card"
                     contentClassName="experience-card-content"
                 >
-                    <div className="experience-card-text">
-                        <div>
-                            <strong>Software Engineer</strong> | Jan 2022 - Present
-                            <br />
-                            <strong>Software Engineer Co-op</strong> | Jan 2020 - June 2020
-                        </div>
-                        <div>
-                            At Bigtime, I architect web interfaces and reusable components and behaviors. I have onboarded new co-ops (interns) by guiding them through training projects and conducting regular check-ins. Back in 2020, I initially joined as a co-op, and upon my graduation from Northeastern, I was delighted to be rehired full-time.
-                        </div>
+                    <div>
+                        <strong>Software Engineer</strong> | Jan 2022 - Present
+                        <br />
+                        <strong>Software Engineer Co-op</strong> | Jan 2020 - June 2020
+                    </div>
+                    <div>
+                        At Bigtime, I architect web interfaces and reusable components and behaviors. I have onboarded new co-ops (interns) by guiding them through training projects and conducting regular check-ins. Back in 2020, I initially joined as a co-op, and upon my graduation from Northeastern, I was delighted to be rehired full-time.
                     </div>
                 </Card>
                 <Card
@@ -35,15 +33,13 @@ const Experience = () => {
                     className="experience-card"
                     contentClassName="experience-card-content"
                 >
-                    <div className="experience-card-text">
-                        <div>
-                            <strong>Tech Lead</strong> | May 2021 - Dec 2021
-                            <br />
-                            <strong>Software Engineer</strong> | Sept 2019 - May 2021
-                        </div>
-                        <div>
-                            I developed both front-end and back-end features for a tree tracking application designed for the <a href="https://treeboston.org/" target="_blank" rel="noreferrer">Speak for the Trees</a> organization. I also played a key role in transitioning the app from Vue.js with an ArcGIS map to a React-based version with integrated Google Maps functionality. Everyone at C4C is a student volunteer, dedicating time to assist non-profit organizations.
-                        </div>
+                    <div>
+                        <strong>Tech Lead</strong> | May 2021 - Dec 2021
+                        <br />
+                        <strong>Software Engineer</strong> | Sept 2019 - May 2021
+                    </div>
+                    <div>
+                        I developed both front-end and back-end features for a tree tracking application designed for the <a href="https://treeboston.org/" target="_blank" rel="noreferrer">Speak for the Trees</a> organization. I also played a key role in transitioning the app from Vue.js with an ArcGIS map to a React-based version with integrated Google Maps functionality. Everyone at C4C is a student volunteer, dedicating time to assist non-profit organizations.
                     </div>
                 </Card>
                 <Card
@@ -54,15 +50,13 @@ const Experience = () => {
                     className="experience-card"
                     contentClassName="experience-card-content"
                 >
-                    <div className="experience-card-text">
-                        <div>
-                            <strong>Sales and Analytics Intern</strong> | Jan 2021 - June 2021
-                            <br />
-                            <strong>Demand Response Program Operations Intern</strong> | Jan 2019 - June 2019
-                        </div>
-                        <div>
-                            I Designed scripts which managed complicated data objects and saved hundreds of man hours for my team. Additionally, I utilized the Salesforce Object Query Language to perform quality checks on customer data.
-                        </div>
+                    <div>
+                        <strong>Sales and Analytics Intern</strong> | Jan 2021 - June 2021
+                        <br />
+                        <strong>Demand Response Program Operations Intern</strong> | Jan 2019 - June 2019
+                    </div>
+                    <div>
+                        I Designed scripts which managed complicated data objects and saved hundreds of man hours for my team. Additionally, I utilized the Salesforce Object Query Language to perform quality checks on customer data.
                     </div>
                 </Card>
             </div>
