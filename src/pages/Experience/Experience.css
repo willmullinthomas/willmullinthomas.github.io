@@ -1,28 +1,60 @@
 .experience-body {
-    padding: 1em;
+    padding: 2rem;
 }
 
 .experience-cards {
-    min-width: 300px;
     display: flex;
     flex-direction: column;
-    gap: 2em;
-    align-items: center;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .experience-card {
     padding: 10px;
     max-width: 850px;
+    opacity: 0;
+    animation: slideInRight 0.8s ease forwards;
 }
 
+.experience-card:nth-child(1) { animation-delay: 0s; }
+.experience-card:nth-child(2) { animation-delay: 0.2s; }
+.experience-card:nth-child(3) { animation-delay: 0.4s; }
+
 .experience-card-content {
-    gap: 0.6em;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .experience-image {
-    width: 220px;
-    height: 220px;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
     border-radius: 50%;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .experience-body {
+        padding: 1rem;
+    }
+
+    .experience-image {
+        width: 120px;
+        height: 120px;
+        padding: 0.75rem;
+    }
 }
 
 @media screen and (max-width:775px) {

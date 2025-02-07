@@ -1,23 +1,133 @@
 .nav-bar {
     display: flex;
-    border-bottom: 1px solid #DDDDDD;
     justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.nav-bar:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 .nav-left {
     display: flex;
-    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
 }
 
 .nav-right {
     display: flex;
-    gap: 1em;
+    gap: 1.5rem;
     align-items: center;
-    justify-content: center;
-    padding: 1em 0.5em;
 }
 
 .nav-right-icon {
-    font-size: 24px;
-    color: #334b61;
+    font-size: 1.5rem;
+    color: #2c3e50;
+    transition: all 0.3s ease;
+}
+
+.nav-right-icon:hover {
+    color: #3498db;
+    transform: translateY(-2px);
+}
+
+/* Navigation link styles */
+.nav-link {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+}
+
+.nav-link:hover {
+    background: rgba(52, 152, 219, 0.1);
+    color: #3498db;
+}
+
+.nav-link.active {
+    background: rgba(52, 152, 219, 0.15);
+    color: #3498db;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: #3498db;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 80%;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        padding: 0.5rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: center;
+    }
+
+    .nav-left {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.25rem;
+        padding: 0.25rem;
+    }
+
+    .nav-right {
+        gap: 1rem;
+        padding: 0.25rem;
+    }
+
+    .nav-link {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.85rem;
+    }
+
+    .nav-right-icon {
+        font-size: 1.25rem;
+    }
+
+    .nav-link::after {
+        display: none;
+    }
+}
+
+/* Animation for page load */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.nav-bar {
+    animation: fadeInDown 0.5s ease forwards;
 }
