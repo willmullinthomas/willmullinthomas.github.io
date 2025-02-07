@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.3c8462f6.css",
-    "main.js": "/static/js/main.65611bab.js",
+    "main.css": "/static/css/main.ea0652a2.css",
+    "main.js": "/static/js/main.9dc36c55.js",
     "static/media/portrait-home.png": "/static/media/portrait-home.3b45764826c1cb5b2cd2.png",
     "static/media/portrait-about.png": "/static/media/portrait-about.337e65841f510b0fd8a8.png",
     "static/media/bigtime.png": "/static/media/bigtime.c0774fa74facf3419ab8.png",
     "static/media/c4c.png": "/static/media/c4c.a039dd0e10cf0d32bfb4.png",
     "static/media/enel-x.png": "/static/media/enel-x.c2a637bbacd4561db958.png",
     "index.html": "/index.html",
-    "main.3c8462f6.css.map": "/static/css/main.3c8462f6.css.map",
-    "main.65611bab.js.map": "/static/js/main.65611bab.js.map"
+    "main.ea0652a2.css.map": "/static/css/main.ea0652a2.css.map",
+    "main.9dc36c55.js.map": "/static/js/main.9dc36c55.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c8462f6.css",
-    "static/js/main.65611bab.js"
+    "static/css/main.ea0652a2.css",
+    "static/js/main.9dc36c55.js"
   ]
 }
